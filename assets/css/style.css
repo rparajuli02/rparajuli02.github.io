@@ -23,7 +23,7 @@
   --raw-seinna: hsl(24, 74%, 58%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
   --scarlet: hsl(13, 96%, 47%);
-  --black: hsl(0, 0%, 0%);
+  --blue: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
 
   /**
@@ -1121,23 +1121,23 @@ textarea.input-field {
   }
 
   .hero-banner {
-    max-width: unset;
-    height: 100%;
+    max-width: 100;
+    height: 70%;
     margin-bottom: 0;
   }
 
   .hero img {
-    height: 100%;
+    height: 70%;
     width: auto;
     margin-inline: auto;
   }
 
   .hero-content {
-    --color-primary: var(--white);
+    --color-primary: var(--red);
 
     position: absolute;
-    top: 50%;
-    filter: drop-shadow(2px 4px 10px var(--black));
+    top: 65%;
+    filter: drop-shadow(2px 4px 10px var(--white));
   }
 
   .hero .btn-primary:is(:hover, :focus) { color: hsl(0, 0%, 12%); }
